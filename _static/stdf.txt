@@ -1,0 +1,4 @@
+# STDF Parser
+A [standard test data format parser][stdf] is implemented in python that can help in production data analysis.
+
+[stdf]: https://github.com/yanghao/stdfparser

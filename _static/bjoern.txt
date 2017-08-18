@@ -1,0 +1,11 @@
+# Bjoern Python3 Support
+
+2017-08-18
+
+[Bjoern][bjoern] is a super fast python wsgi web server which has been lacking
+support for python3 for a long time. Recently I have contributed [Bjoern with
+Python3 Support][bjoern-py3]
+and got positive feedback from the maintainer to get it merged.
+
+[bjoern]: https://github.com/jonashaag/bjoern
+[bjoern-py3]: https://github.com/yanghao/bjoern
