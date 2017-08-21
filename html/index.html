@@ -12,6 +12,7 @@ function callback(text) {
 	var target = document.getElementById('targetDiv'),
 		converter = new showdown.Converter(),
 		html = converter.makeHtml(text);
+        html = html + "<hr/>";
         html = html + "<br/><h1><a href=\"/\">http://xiaoyezi.org</a> &nbsp;&nbsp;";
         html = html + "<a href=\"/_static" + url + "\">";
         html = html + "Source" + "</a>  &nbsp;&nbsp;";
@@ -52,6 +53,5 @@ run();
         <h1><a href="http://xiaoyezi.org">http://xiaoyezi.org</a></h1>
 		<hr/>
 		<div id="targetDiv"></div>
-        <hr/>
 	</body>
 </html>
